@@ -18,78 +18,46 @@
     <nav>
         <a href="#">Главная</a>
         <a href="#">Каталог</a>
-        <a href="#">О нас</a>
+        <a href="#">Наши работы</a>
         <a href="#">Контакты</a>
     </nav>
 </header>
 
 <section class="hero">
     <h2>Изготавливаем мебель вашей мечты</h2>
+    <p>Кухни • Шкафы • Прихожие • Гардеробные • ТВ-зоны</p>
 
-    <p>
-        Кухни • Шкафы • Прихожие • Гардеробные • ТВ-зоны •
-        Мебель любой сложности
-    </p>
-
-    <a href="#" class="btn">Заказать мебель</a>
+    <a href="#" class="btn">Заказать бесплатно замер</a>
 </section>
+
+<section class="about">
+    <h2>Почему выбирают нас?</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>⭐ Качество</h3>
+            <p>Используем только качественные материалы.</p>
+        </div>
+
+        <div class="card">
+            <h3>🚚 Быстро</h3>
+            <p>Изготовление мебели от 15 дней.</p>
+        </div>
+
+        <div class="card">
+            <h3>🛠 Гарантия</h3>
+            <p>2 года гарантии на фурнитуру.</p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2026 SoftLine Furniture
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial,sans-serif;
-}
-
-body{
-    background:#111;
-    color:white;
-}
-
-header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:20px 60px;
-    background:#1b1b1b;
-}
-
-nav a{
-    color:white;
-    text-decoration:none;
-    margin-left:25px;
-}
-
-.hero{
-    height:90vh;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
-    url("https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1600");
-    background-size:cover;
-    background-position:center;
-}
-
-.hero h2{
-    font-size:60px;
-    margin-bottom:20px;
-}
-
-.hero p{
-    font-size:24px;
-    margin-bottom:40px;
-}
-
-.btn{
-    background:#d4a017;
-    color:white;
-    padding:18px 40px;
-    text-decoration:none;
-    border-radius:8px;
-    font-size:20px;
-}
