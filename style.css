@@ -1,122 +1,19 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Segoe UI',sans-serif;
-}
-
-html{
-    scroll-behavior:smooth;
-}
-
-body{
-    background:#f8f8f8;
-    color:#222;
-}
-
-/* Шапка */
-
-header{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:20px 8%;
-    background:white;
-    box-shadow:0 5px 20px rgba(0,0,0,.08);
-    z-index:1000;
-}
-
-.logo{
-    font-size:28px;
-    font-weight:700;
-}
-
-nav{
-    display:flex;
-    gap:35px;
-}
-
-nav a{
-    text-decoration:none;
-    color:#222;
-    transition:.3s;
-}
-
-nav a:hover{
-    color:#c89b3c;
-}
-
-/* Кнопка */
-
-.btn{
-
-    background:#c89b3c;
-    color:white;
-    text-decoration:none;
-    padding:14px 30px;
-    border-radius:30px;
-    transition:.3s;
-
-}
-
-.btn:hover{
-
-    background:#ad8128;
-
-}
-
-/* Главный экран */
-
 .hero{
-
 height:100vh;
-
 display:flex;
-
 flex-direction:column;
-
 justify-content:center;
-
 align-items:center;
-
 text-align:center;
-
 padding:20px;
 
 background:
-
-linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
-
-url("https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1600");
+linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url("https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=1920&q=80");
 
 background-size:cover;
-
 background-position:center;
+background-repeat:no-repeat;
 
 color:white;
-
 }
-
-.hero h1{
-
-font-size:60px;
-
-max-width:900px;
-
-margin-bottom:25px;
-
-}
-
-.hero p{
-
-font-size:22px;
-
-margin-bottom:40px;
-
-}
-
-.hero-btn
